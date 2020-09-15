@@ -46,8 +46,8 @@ MCD = McDonald.iloc[ : , 3]
 MSFT = Microsoft.iloc[ : , 3]
 
 # Check columns are sliced
-MCD
-MSFT
+print(MCD)
+print(MSFT)
 
 # Examine the correlation between McDonald and Microsoft
 Correlation = np.corrcoef(MCD, MSFT)[0, 1]
