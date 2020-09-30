@@ -1,17 +1,18 @@
 # Libraries
+from statsmodels.stats.stattools import durbin_watson
+from IPython.core.interactiveshell import InteractiveShell
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.stats as stats
 import datetime
 import quandl
-from statsmodels.stats.stattools import durbin_watson
-from IPython.core.interactiveshell import InteractiveShell
+
 InteractiveShell.ast_node_interactivity = "all"
 
 # Dates to fetch data
-start = datetime.datetime(2016,1,1)
-end = datetime.datetime(2017,1,1)
+start = datetime.datetime(2016, 1, 1)
+end = datetime.datetime(2017, 1, 1)
 
 # API_Key
 quandl.ApiConfig.api_key = ''
