@@ -1,4 +1,4 @@
-# Libraries
+# Import relevant libraries
 from statsmodels.stats.stattools import durbin_watson
 from IPython.core.interactiveshell import InteractiveShell
 import pandas as pd
